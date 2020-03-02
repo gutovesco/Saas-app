@@ -11,7 +11,7 @@ body {
 
 .titulo-secao {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 18px;
   text-align: center; }
 
 .sobre,
@@ -126,7 +126,7 @@ header .container {
 
 .plano {
   background: #fff;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em; }

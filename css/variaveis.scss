@@ -5,5 +5,9 @@ $corbranca: #fff;
 @mixin borda-padrao($raio: 0.3em){
   border-radius: 0.3em;
 }
+@mixin retorna-largura($multiplicador) {
+  width: round(18 * $tamanho-fonte-padrao);
+}
+$tamanho-fonte-padrao: 16px;
 
 $mq-mobile: "(max-width: 950px)";

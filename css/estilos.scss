@@ -1,5 +1,6 @@
 @import 'variaveis.scss';
 
+
 /** Geral **/
 body {
   font-family: "Roboto Slab", serif;
@@ -15,7 +16,7 @@ body {
 
 .titulo-secao {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 2px + $tamanho-fonte-padrao;
   text-align: center;
 }
 
@@ -159,7 +160,7 @@ header .container {
 
 .plano {
   background: $corbranca;
-  width: 18em;
+  @include retorna-largura(1);
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
