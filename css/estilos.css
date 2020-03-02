@@ -5,6 +5,9 @@ body {
 .container {
   width: 940px;
   margin: 0 auto; }
+  @media mq-mobile {
+    .container {
+      width: 90%; } }
 
 .titulo-secao {
   text-decoration: underline;

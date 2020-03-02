@@ -5,3 +5,5 @@ $corbranca: #fff;
 @mixin borda-padrao($raio: 0.3em){
   border-radius: 0.3em;
 }
+
+$mq-mobile: "(max-width: 950px)";

@@ -6,6 +6,9 @@ body {
 }
 
 .container {
+  @media #{mq-mobile}{
+    width: 90%;
+  }
   width: 940px;
   margin: 0 auto;
 }
